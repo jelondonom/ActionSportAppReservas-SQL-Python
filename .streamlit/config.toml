@@ -1,0 +1,10 @@
+# Tema con la paleta de Action Sport Club
+[theme]
+base = "light"
+primaryColor = "#233D1A"
+backgroundColor = "#FCFCF8"
+secondaryBackgroundColor = "#F4F0E6"
+textColor = "#1A2716"
+
+[client]
+toolbarMode = "minimal"

@@ -6,14 +6,17 @@ Esta guía explica cómo usar la aplicación en el día a día. No necesitas sab
 
 ## 1. Primeros pasos
 
-Al abrir la app verás un **menú a la izquierda** con dos controles:
+El **menú está arriba**, agrupado en tres secciones:
 
-| Control | Para qué sirve |
+| Sección | Páginas |
 |---|---|
-| **Área** | Filtra el menú según tu rol: *Gerencia comercial*, *Gerencia operativa* o *Todas las áreas*. |
-| **Menú** | Las páginas de la app. Cambia según el área elegida. |
+| **Operación** | Inicio, Solicitar cancha, Registrar usuario, Reservas por estado, Canchas |
+| **Gerencia** | Consultas guiadas, Análisis, Segmentación |
+| **Experto** | Consultas SQL |
 
-Abajo del menú están la **hora de Bogotá** y el botón **↻ Actualizar datos**. La app guarda las consultas por 5 minutos para responder rápido. Usa este botón si alguien más modificó datos y quieres verlos al instante.
+En **celular**, el menú se abre con el botón **»** de la esquina superior izquierda y se cierra solo al elegir una página.
+
+En el panel lateral están la **hora de Bogotá** y el botón **↻ Actualizar datos**. La app guarda las consultas por 5 minutos para responder rápido. Usa este botón si alguien más modificó datos y quieres verlos al instante.
 
 > Toda acción que guardas (una reserva, un cambio de estado) actualiza los datos de inmediato.
 
@@ -78,7 +81,7 @@ PENDIENTE  →  RESERVADA  →  PAGADA
 ### 3.1 Consultas guiadas
 La función central para la gerencia: preguntas de negocio que se responden con SQL, sin escribir código.
 
-1. En **¿Qué quieres saber?** elige una pregunta. Cada pregunta indica su área: *Comercial* u *Operativa*.
+1. Con el selector **Área** (*Todas*, *Comercial* u *Operativa*) filtra las preguntas. Luego elige una en **¿Qué quieres saber?**.
 2. Ajusta los **filtros** que aparezcan: periodo, sede, deporte, cantidad a mostrar o día.
 3. Lee la **gráfica** y la **tabla**.
 4. Usa **⬇ Descargar Excel** para llevarte el resultado.
@@ -149,4 +152,4 @@ No. Por seguridad, la app no borra datos. Una reserva se cancela, y queda en el 
 Solo se califican reservas pagadas cuya hora de juego ya terminó.
 
 **Los datos no se actualizan.**
-Pulsa **↻ Actualizar datos** en el menú lateral.
+Pulsa **↻ Actualizar datos** en el panel lateral.
